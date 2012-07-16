@@ -46,7 +46,7 @@ is _owner_ name, the second is _group_ name. `0` is the size in bytes, and this
 is a empty file obviously. Then last modification time followed by the file
 name.
 
-Now back to the 9 bits we left out, so Linux use the first 3 to represent the
+Now back to the 9 bits we left out, so Linux uses the first 3 to represent the
 permissions of _owner_, then the middle 3 for _group_, last 3 for _world_.
  the first bit determines whether the _owner_ has the read permission to the
 file, `r` means yes, `-` no. Then we see `w` in the second bit, which means
