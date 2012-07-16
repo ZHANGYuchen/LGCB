@@ -75,7 +75,7 @@ well, dirs are also files, just a sepical kind of.)
 <div class="slide">
   <img src="/LGCB-assets/bash/perm_6.png" />
 </div>
-If write permission granted to a user, the user has the right to modify the
+If writing permission granted to a user, the user has the right to modify the
 content, simple enough. But the question is that does this also mean the file name can be modified or deleted? The answer is no. 
 
 Because it is the write permission to the parent dir of this file that is in
